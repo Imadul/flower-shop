@@ -171,6 +171,24 @@ header {
     font-weight: 600;
 }
 
+/* bonus sec  */
+.bonus-sec-outer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* gap: 24px; */
+}
+
+.bonus-sec-outer img {
+    width: 240px;
+    height: 240px;
+}
+
+.bonus-sec-outer p {
+    text-align: center;
+    margin-top: 10px;
+}
+
 /* discount sec  */
 .discount-sec {
     border-radius: 8px;

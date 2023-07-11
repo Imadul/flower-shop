@@ -14,7 +14,7 @@ img {
 }
 
 .container {
-    padding-inline: 240px;
+    padding-inline: 120px;
 }
 
 .sec-title {
@@ -31,6 +31,96 @@ img {
     text-align: center;
     font-size: 18px;
     margin-bottom: 48px;
+    max-width: 594px;
+    margin-inline: auto;
+    line-height: 30px;
+}
+
+.btn-primary {
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 8px;
+    background: #E55473;
+    padding: 20px 43px;
+    border: 0;
+}
+
+section {
+    margin-block: 128px;
 }
 
 /* header styles start here  */
+header {
+    background: rgba(229, 84, 115, 0.10);
+    margin-bottom: 128px;
+    padding-top: 50px;
+
+}
+
+.header-sec {
+    background: url("./images/banner.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom right;
+
+}
+
+.header-content-innner {
+    padding-block: 100px;
+}
+
+.header-content-innner h1 {
+    color: #272727;
+    font-size: 60px;
+    font-weight: 800;
+    margin-right: 50px;
+}
+
+.header-content-innner .sec-description {
+    text-align: left;
+    margin-block: 32px;
+    font-size: 16px;
+    max-width: 500px;
+    margin-inline: unset;
+
+}
+
+.header-content-innner .btn-primary {
+    margin-bottom: 50px;
+}
+
+
+/* our featured section styles  */
+
+
+/* delivery section styles */
+
+.delivery-sec {
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    padding-block: 86px;
+    padding-inline: 50px;
+}
+
+.delivery-sec-inner {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.delivery-sec div {
+    text-align: center;
+}
+
+.delivery-sec div img {
+    width: 88px;
+    height: 88px;
+}
+
+.delivery-sec-inner p {
+    margin-top: 24px;
+    color: rgba(39, 39, 39, 0.80);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+}

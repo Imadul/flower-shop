@@ -203,3 +203,98 @@ header {
     align-items: center;
     gap: 24px;
 }
+
+.subscription-sec {
+    background: url("./images/r9.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-block: 122px;
+}
+
+.subscription-sec-inner {
+    text-align: center;
+}
+
+.subscription-sec-inner h1 {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+
+.subscription-sec-inner p {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+
+}
+
+.subscription-input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    margin-top: 40px;
+}
+
+.subscription-input input[type="email"] {
+    width: 400px;
+    border-radius: 8px;
+    background: #FFF;
+    border: 0;
+    outline: 0;
+    padding: 14px;
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 14px;
+}
+
+.subscription-input input[type="submit"] {
+    border: 0;
+    outline: 0;
+    padding: 14px;
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 14px;
+    border-radius: 8px;
+    background: #E55473;
+    color: #FFF;
+}
+
+/* footer  */
+footer {
+    background: #111010;
+    padding-block: 128px;
+}
+
+.footer-outer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-outer h1 {
+    color: #fff;
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.footer-outer p {
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-size: 18px;
+    line-height: 30px;
+    max-width: 625px;
+    margin-top: 10px;
+    margin-bottom: 16px;
+}
+
+.footer-copyright {
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-size: 16px;
+}
+
+.footer-outer h1 span {
+    color: #E55473;
+}
